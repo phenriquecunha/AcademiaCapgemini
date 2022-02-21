@@ -6,7 +6,7 @@ public class Question1 {
         System.out.print("Entrada: ");
         int n = scanner.nextInt();
         scanner.close();
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             /**
              *  Laço para imprimir o número de linhas correspondentes o input
              **/
