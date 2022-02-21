@@ -50,10 +50,8 @@ public class Question3 {
                 break;
 
         }
-        if (subS1.length() == subS2.length() && subS1.length() == 0) {
-            return true; //Se o tamanho das duas strings for zero, elas são pares de anagramas
-
-        }
-        return false; //Se o tamanho das duas strings for diferente de zero, elas não são anagrama
+        return string1.length() == string2.length() && string1.length() == 0;
+        //Se o tamanho das duas strings for zero, elas são pares de anagramas
+        //Se o tamanho das duas strings for diferente de zero, elas não são anagrama
     }
 }

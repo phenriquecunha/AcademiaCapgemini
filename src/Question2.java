@@ -52,9 +52,11 @@ public class Question2 {
                 }
             }
         }
+        System.out.println(count);
+        count = 4 - count;
         if(input.length() + count < 6){
-            count = 6 - (input.length() + count) + count;
-            // Cálculo para contabilizar a quantidade de caracteres faltantes com base na quatidade de critérios atendidos
+            count +=  6 - (input.length() + count);
+            // Cálculo para contabilizar a quantidade de caracteres faltantes com base na quantidade de critérios atendidos
         }
         System.out.println(count);
     }
