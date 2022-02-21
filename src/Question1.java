@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Question1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Entrada: ");
         int n = scanner.nextInt();
         scanner.close();
         for (int i = 0; i <= n; i++) {
