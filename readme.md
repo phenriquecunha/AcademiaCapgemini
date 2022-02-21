@@ -17,8 +17,8 @@ cd .\AcademiaCapgemini\
 ```
 ```
 java .\src\Question1.java
-java .\src\Question1.java
-java .\src\Question1.java
+java .\src\Question2.java
+java .\src\Question3.java
 ```
 @Author: Pedro Cunha
 
