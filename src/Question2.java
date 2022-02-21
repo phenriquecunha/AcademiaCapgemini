@@ -30,17 +30,14 @@ public class Question2 {
             if (!hasUpper && Character.isUpperCase(i)) {
                 hasUpper = true;
                 count++;
-                System.out.println("Upper");
             }
             if (!hasLower && Character.isLowerCase(i)) {
                 hasLower = true;
-                count++;
-                System.out.println("Lorwe");    
+                count++;    
             }
             if (!hasNumber && Character.isDigit(i)) {
                 hasNumber = true;
                 count++;
-                System.out.println("number");
             }
             if (!hasSpecial) {
                 for (char j : special.toCharArray()) {
@@ -51,11 +48,9 @@ public class Question2 {
                 }
                 if (hasSpecial) {
                     count++;
-                    System.out.println("special");
                 }
             }
         }
-        System.out.println(count);
         if(input.length() + count < 6){
             count = 6 - (input.length() + count) + count;
             // Cálculo para contabilizar a quantidade de caracteres faltantes com base na quatidade de critérios atendidos
