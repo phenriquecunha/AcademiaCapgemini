@@ -16,9 +16,9 @@ Logo após obter um clone do projeto, entre no diretório em que foi instalado o
 cd .\AcademiaCapgemini\
 ```
 ```
-java src.\Question1.java
-java src.\Question1.java
-java src.\Question1.java
+java .\src\Question1.java
+java .\src\Question1.java
+java .\src\Question1.java
 ```
 @Author: Pedro Cunha
 
