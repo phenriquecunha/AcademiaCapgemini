@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Question3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("String de entrada: ");
         String input = scanner.nextLine();
         scanner.close();
         
@@ -14,7 +15,7 @@ public class Question3 {
         input = input.replace(" ", "");
 
         /**
-         * Lista para guardar as substrings que foram divididas pela raiz quadrade da string
+         * Lista para guardar as substrings que foram divididas pela raiz quadrada da string
          */
         List<String> subs = new ArrayList<>();
 
@@ -55,7 +56,7 @@ public class Question3 {
         /**
          * Impressão da String final encriptada
          */
-        System.out.println(finalStr);
+        System.out.println("\nSaida: "+finalStr);
     }
 
 }
