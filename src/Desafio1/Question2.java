@@ -57,6 +57,6 @@ public class Question2 {
             count +=  6 - (input.length() + count);
             // Cálculo para contabilizar a quantidade de caracteres faltantes com base na quantidade de critérios atendidos
         }
-        System.out.println(count);
+        System.out.println("Saida: "+count);
     }
 }

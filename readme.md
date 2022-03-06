@@ -16,9 +16,13 @@ Logo após obter um clone do projeto, entre no diretório em que foi instalado o
 cd .\AcademiaCapgemini\
 ```
 ```
-java .\src\Question1.java
-java .\src\Question2.java
-java .\src\Question3.java
+java .\src\Desafio1\Question1.java
+java .\src\Desafio1\Question2.java
+java .\src\Desafio1\Question3.java
+
+java .\src\Desafio2\Question1.java
+java .\src\Desafio2\Question2.java
+java .\src\Desafio2\Question3.java
 ```
 @Author: Pedro Cunha
 
